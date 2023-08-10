@@ -123,7 +123,8 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CSRF_TRUSTED_ORIGINS=["https://arjun-rishi-2004-sturdy-giggle-5wvgrg4jq46249w4-8000.preview.app.github.dev"]
+CSRF_TRUSTED_ORIGINS=["https://arjun-rishi-2004-sturdy-giggle-5wvgrg4jq46249w4-8000.preview.app.github.dev"
+,"https://localhost:8000"]
 
 
 APPEND_SLASH=False
